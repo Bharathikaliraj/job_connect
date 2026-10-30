@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+.venv/
+
+# React
+node_modules/
+dist/
+
+# Secrets and local database
+.env
+.env.*
+!.env.example
+db.sqlite3
+
+# Uploaded resumes
+media/

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/env/
+backend/venv/
+backend/.venv/
+
+# React
+**/node_modules/
+frontend/dist/
+
+# Private files
+backend/db.sqlite3
+backend/media/
+
+# Secrets
+.env
+.env.*
+!.env.example
